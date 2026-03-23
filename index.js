@@ -30,7 +30,7 @@ const day29TempF = 76;
 const day30TempC = 29;
 
 
-// conversions
+// convert Fahrenheit to Celsius
 const day1TempC = (day1TempF - 32) * 5 / 9;
 const day3TempC = (day3TempF - 32) * 5 / 9;
 const day5TempC = (day5TempF - 32) * 5 / 9;
@@ -48,7 +48,7 @@ const day27TempC = (day27TempF - 32) * 5 / 9;
 const day29TempC = (day29TempF - 32) * 5 / 9;
 
 
-// totals
+// total temperature in Celsius
 const tot_temperature_in_celsius =
 day1TempC + day2TempC + day3TempC + day4TempC + day5TempC +
 day6TempC + day7TempC + day8TempC + day9TempC + day10TempC +
@@ -57,4 +57,5 @@ day16TempC + day17TempC + day18TempC + day19TempC + day20TempC +
 day21TempC + day22TempC + day23TempC + day24TempC + day25TempC +
 day26TempC + day27TempC + day28TempC + day29TempC + day30TempC;
 
+// average temperature in Celsius
 const avg_temperature_in_celsius = tot_temperature_in_celsius / 30;
